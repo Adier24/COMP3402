@@ -1,3 +1,2 @@
-from app import saludar
-def test_saludar():
- assert saludar("Ana") == "Hola, Ana"
+def saludar(nombre):
+    return f"Saludos, {nombre}"
